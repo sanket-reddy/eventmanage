@@ -15,11 +15,11 @@ import {
 const Appbar = () => {
   return (
     <div>
-      <nav className="flex w-full p-5 bg-violet-200 justify-between items-center ">
+      <nav className="flex w-full p-2 bg-violet-200 justify-between items-center ">
         <div>
-          <h1 className="text-2xl">SITE-1</h1>
+          <h1 className="text-3xl">Event-Up</h1>
         </div>
-        <div className=" hidden lg:flex space-x-4 ">
+        <div className=" hidden sm:flex space-x-4 ">
           <div className=" hover:text-blue-800">
             <Link href="/home">Home</Link>
           </div>
@@ -45,7 +45,7 @@ const Appbar = () => {
             </SheetTrigger>
             <SheetContent>
               <SheetHeader>
-                <SheetTitle className="text-3xl">Evently</SheetTitle>
+                <SheetTitle className="text-3xl">Event Up</SheetTitle>
                 <Separator />
                 <SheetDescription className="flex flex-col space-y-3 ">
                   <Link href="/Home" className="text-lg text-black">
